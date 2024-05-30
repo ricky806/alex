@@ -1,8 +1,8 @@
 {
-  "name":"gifted-md@4.0.0",
+  "name":"À𝖑è𝖝𝕻ì𝖐ù-md@4.0.0",
   "description":"A MultiDevice WhatsApp Bot Created by Gifted Tech",
   "keywords":["bot","node","baileys","whatsapp"],
-  "logo":"https://telegra.ph/file/a202f454c9532c3f5b7f8.jpg",
+  "logo":"https://telegra.ph/file/03fd14a9266797b4227cb.jpg",
   "repository":"https://github.com/mouricedevs/Gifted-Md",
   "succes_url":"/",
 "stack":"heroku-22",
@@ -42,14 +42,14 @@
     "BOT_NAME" : {
 
       "description":"put A name for your bot",
-      "value":"GIFTED-MD",
+      "value":"À𝖑è𝖝 𝕻ì𝖐ù-MD",
       "required":false
 
     } ,
      "BOT_MENU_LINKS" : {
 
       "description":"add one or many link for your bot menu  ; eg : url1,url2,url3.....",
-      "value":"https://telegra.ph/file/a202f454c9532c3f5b7f8.jpg",
+      "value":"https://telegra.ph/file/03fd14a9266797b4227cb.jpg",
       "required":false
 
      },
@@ -81,14 +81,14 @@
 
     "desc": "Your Name",
     "required": false,
-    "value": "Gifted Tech"
+    "value": "À𝖑è𝖝 𝕻ì𝖐ù Tech"
   },
     "OWNER_NUMBER":
   {
 
     "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
     "required":false,
-    "value": "254728782591,254762016957"
+    "value": "918536881026,918159019738"
   },
     "WARN_COUNT":
   {
@@ -109,9 +109,9 @@
     "value": "yes"
   },
   "PRESENCE":{
-    "description":"Put online to indicate that you are ever online even if you are not. Put typing to indicate that you are currently typing a message. Put recording to indicate that you are currently recording an audio. Or leave the field blank to indicate your real state.",
-    "value":"online",
-    "required": false
+    "description":"Put offline to indicate that you are ever online even if you are not. Put typing to indicate that you are currently typing a message. Put recording to indicate that you are currently recording an audio. Or leave the field blank to indicate your real state.",
+    "value":"offline",
+    "required": true
   }  
   },
 
